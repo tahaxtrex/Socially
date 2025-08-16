@@ -1,0 +1,7 @@
+CREATE TABLE "user"(
+    id SERIES INT,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    password TEXT
+
+);
