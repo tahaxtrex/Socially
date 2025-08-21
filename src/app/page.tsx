@@ -1,4 +1,6 @@
 import { SignInButton, SignUpButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { Button } from "@/components/ui/button";
+import { ModeToggle } from "@/components/ui/themeButton";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +13,7 @@ export default function Home() {
             Sign Up
           </button>
         </SignUpButton>
+        <Button></Button>
       </SignedOut>
       <SignedIn>
         <UserButton />
